@@ -12,22 +12,22 @@ include_directories(include)
 add_message_files(
   DIRECTORY msg
   FILES
-  msg/BoundingBox2D.msg
-  msg/BoundingBox2DArray.msg
-  msg/BoundingBox3D.msg
-  msg/BoundingBox3DArray.msg
-  msg/Classification.msg
-  msg/Detection2DArray.msg
-  msg/Detection2D.msg
-  msg/Detection3DArray.msg
-  msg/Detection3D.msg
-  msg/LabelInfo.msg
-  msg/ObjectHypothesis.msg
-  msg/ObjectHypothesisWithPose.msg
-  msg/VisionClass.msg
-  msg/Point2D.msg
-  msg/Pose2D.msg
-  msg/VisionInfo.msg
+  BoundingBox2D.msg
+  BoundingBox2DArray.msg
+  BoundingBox3D.msg
+  BoundingBox3DArray.msg
+  Classification.msg
+  Detection2DArray.msg
+  Detection2D.msg
+  Detection3DArray.msg
+  Detection3D.msg
+  LabelInfo.msg
+  ObjectHypothesis.msg
+  ObjectHypothesisWithPose.msg
+  VisionClass.msg
+  Point2D.msg
+  Pose2D.msg
+  VisionInfo.msg
 )
 
 generate_messages(DEPENDENCIES
